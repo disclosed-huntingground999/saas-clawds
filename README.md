@@ -10,6 +10,10 @@ Clone this repo. Run the setup. Let AI agents help you build every department of
 
 ---
 
+> **Inspired by** [@hridoyreh's viral tweet](https://x.com/hridoyreh/status/2031381494825103473) that laid out the complete SaaS company as a folder structure. This repo turns that original idea into a fully actionable, AI-agent-powered playbook that any founder can clone and run.
+
+---
+
 ## Why This Exists
 
 Building a SaaS is not just writing code. It's building an entire company — marketing, sales, support, analytics, infrastructure, hiring, and dozens of other departments that need structure from day one.
@@ -293,6 +297,14 @@ MIT License — see [LICENSE](LICENSE) for details. Use this for your startup, s
 ## Star History
 
 If this helped you, star the repo so other founders can find it too.
+
+---
+
+## Credits
+
+The original concept of representing a SaaS company as a folder structure comes from [**@hridoyreh**](https://x.com/hridoyreh) and their [tweet](https://x.com/hridoyreh/status/2031381494825103473) that went viral for a good reason — it's a brilliantly simple way to think about all the moving pieces of a SaaS business.
+
+This repository was created by [**Vamshi Vangapally**](https://vamshi4001.github.io), who took that idea and turned it into a fully executable, AI-agent-compatible playbook with detailed instructions, templates, and tooling so any founder can go from concept to company.
 
 ---
 
