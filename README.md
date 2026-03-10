@@ -37,8 +37,8 @@ Most founders figure this out painfully, one crisis at a time.
 ### Option 1: Interactive Setup (Recommended)
 
 ```bash
-git clone https://github.com/AICraftAlchemy/saas-playbook.git
-cd saas-playbook
+git clone https://github.com/vamshi4001/saas-clawds.git
+cd saas-clawds
 python3 setup.py
 ```
 
@@ -53,8 +53,8 @@ The setup script will:
 If you're using Cursor, Copilot Workspace, Codex, or any AI coding agent:
 
 ```bash
-git clone https://github.com/AICraftAlchemy/saas-playbook.git
-cd saas-playbook
+git clone https://github.com/vamshi4001/saas-clawds.git
+cd saas-clawds
 ```
 
 Then tell your agent:
@@ -72,7 +72,7 @@ Browse the folders, read the `INSTRUCTIONS.md` files, and fill them out yourself
 ## Repository Structure
 
 ```
-saas-playbook/
+saas-clawds/
 │
 ├── 📂 01-idea/                    # Where it all starts
 │   ├── problem-discovery/         # What pain point are you solving?
@@ -310,7 +310,7 @@ This repository was created by [**Vamshi Vangapally**](https://vamshi4001.github
 
 <p align="center">
   <b>Built for founders who move fast and build with AI.</b><br>
-  <a href="https://github.com/AICraftAlchemy/saas-playbook">⭐ Star this repo</a> · 
-  <a href="https://github.com/AICraftAlchemy/saas-playbook/issues">Report an issue</a> · 
+  <a href="https://github.com/vamshi4001/saas-clawds">⭐ Star this repo</a> · 
+  <a href="https://github.com/vamshi4001/saas-clawds/issues">Report an issue</a> · 
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
