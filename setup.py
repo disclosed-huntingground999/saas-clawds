@@ -87,6 +87,46 @@ DEPARTMENTS = [
         "automation", "hiring", "systems",
         "global-expansion", "exit-strategy"
     ]),
+    ("17-legal", "Legal & Compliance", [
+        "incorporation", "terms-and-privacy", "contracts",
+        "intellectual-property", "compliance"
+    ]),
+    ("18-finance", "Finance & Unit Economics", [
+        "financial-modeling", "unit-economics", "bookkeeping",
+        "billing-operations", "fundraising"
+    ]),
+    ("19-sales", "Sales", [
+        "sales-process", "demo-playbook", "proposals-and-contracts",
+        "crm-setup", "sales-hiring"
+    ]),
+    ("20-customer-success", "Customer Success", [
+        "health-scoring", "onboarding-program", "quarterly-business-reviews",
+        "expansion-playbook", "churn-prevention"
+    ]),
+    ("21-product-management", "Product Management", [
+        "feedback-loops", "product-market-fit", "release-management",
+        "roadmap-communication", "product-ops"
+    ]),
+    ("22-brand-and-positioning", "Brand & Positioning", [
+        "brand-identity", "messaging-framework", "voice-and-tone",
+        "competitive-positioning", "brand-assets"
+    ]),
+    ("23-documentation", "Documentation", [
+        "user-docs", "api-docs", "changelog",
+        "internal-docs", "developer-guides"
+    ]),
+    ("24-competitive-intelligence", "Competitive Intelligence", [
+        "market-monitoring", "win-loss-analysis", "feature-gap-tracking",
+        "pricing-intelligence", "battlecards"
+    ]),
+    ("25-data-and-ai", "Data & AI Strategy", [
+        "data-architecture", "ai-features", "data-governance",
+        "ai-costs", "training-data"
+    ]),
+    ("26-people-and-culture", "People & Culture", [
+        "culture-values", "performance-management", "compensation",
+        "remote-work", "team-health"
+    ]),
 ]
 
 STAGE_LABELS = {
@@ -176,6 +216,56 @@ DEPARTMENT_QUESTIONS = {
         ("What's your 3-year vision for the company?", "three_year_vision"),
         ("When do you plan to start hiring?", "hiring_timeline"),
         ("What's your end goal: acquisition, IPO, or lifestyle business?", "exit_goal"),
+    ],
+    "17-legal": [
+        ("Have you incorporated yet? What entity type?", "incorporation_status"),
+        ("Do you have Terms of Service and Privacy Policy?", "terms_status"),
+        ("What compliance frameworks apply? (GDPR, SOC2, etc.)", "compliance_needs"),
+    ],
+    "18-finance": [
+        ("What's your monthly burn rate and runway?", "burn_runway"),
+        ("Do you have unit economics documented? (LTV, CAC)", "unit_economics"),
+        ("Are you raising? If so, what round?", "fundraising_status"),
+    ],
+    "19-sales": [
+        ("What's your sales motion? (Self-serve, sales-led, hybrid?)", "sales_motion"),
+        ("What's your average deal size and sales cycle?", "deal_metrics"),
+        ("Do you have a CRM? Which one?", "crm_tool"),
+    ],
+    "20-customer-success": [
+        ("Do you have a customer health scoring model?", "health_scoring"),
+        ("Do you run QBRs for key accounts?", "qbr_cadence"),
+        ("Who owns expansion and churn prevention?", "cs_ownership"),
+    ],
+    "21-product-management": [
+        ("How do you collect and prioritize feature feedback?", "feedback_process"),
+        ("How do you measure product-market fit?", "pmf_measurement"),
+        ("What's your release cadence and process?", "release_process"),
+    ],
+    "22-brand-and-positioning": [
+        ("Do you have a formal brand identity and style guide?", "brand_identity"),
+        ("What's your positioning vs. top competitors?", "positioning"),
+        ("Do you have a voice and tone guide for content?", "voice_tone"),
+    ],
+    "23-documentation": [
+        ("Where do user docs and help center live?", "user_docs"),
+        ("Do you have API docs? (If applicable)", "api_docs"),
+        ("How do you maintain internal runbooks?", "internal_docs"),
+    ],
+    "24-competitive-intelligence": [
+        ("How do you track competitor moves?", "competitor_tracking"),
+        ("Do you run win/loss interviews?", "win_loss"),
+        ("Do you have sales battlecards?", "battlecards"),
+    ],
+    "25-data-and-ai": [
+        ("Do you have a data warehouse or pipeline?", "data_architecture"),
+        ("What AI/ML features are you building or considering?", "ai_features"),
+        ("How do you manage AI costs?", "ai_costs"),
+    ],
+    "26-people-and-culture": [
+        ("What are your company values? How are they documented?", "values"),
+        ("What's your performance review process?", "performance_process"),
+        ("What's your remote work policy?", "remote_policy"),
     ],
 }
 

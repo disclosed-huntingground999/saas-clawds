@@ -1,6 +1,6 @@
 # AI Agent Instructions — SaaS Playbook
 
-You are helping a founder build out their complete SaaS company operating system. This repository contains 16 departments with 80+ subfolders, each with an `INSTRUCTIONS.md` file that tells you what to create.
+You are helping a founder build out their complete SaaS company operating system. This repository contains 26 departments with 130+ subfolders, each with an `INSTRUCTIONS.md` file that tells you what to create.
 
 ## Your Mission
 
@@ -25,19 +25,22 @@ Store the answers in `company-profile.md` at the root of this repository.
 
 ### Step 2: Work Through Departments in Order
 
-The departments are numbered 01-16 for a reason. Work through them sequentially:
+The departments are numbered 01-26 for a reason. Work through them sequentially:
 
 ```
 01-idea → 02-validation → 03-planning → 04-design → 05-development →
 06-infrastructure → 07-testing → 08-launch → 09-acquisition →
 10-distribution → 11-conversion → 12-revenue → 13-analytics →
-14-retention → 15-growth → 16-scaling
+14-retention → 15-growth → 16-scaling →
+17-legal → 18-finance → 19-sales → 20-customer-success →
+21-product-management → 22-brand-and-positioning → 23-documentation →
+24-competitive-intelligence → 25-data-and-ai → 26-people-and-culture
 ```
 
 However, skip departments that aren't relevant to the founder's current stage. For example:
-- If they're pre-launch, focus on 01-08
-- If they're post-launch looking to grow, focus on 09-16
-- If they need everything, go through all 16
+- If they're pre-launch, focus on 01-08, plus 17-legal, 18-finance, 22-brand
+- If they're post-launch looking to grow, focus on 09-16 and 17-26
+- If they need everything, go through all 26
 
 ### Step 3: For Each Subfolder
 

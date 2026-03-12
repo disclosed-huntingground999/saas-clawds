@@ -8,6 +8,16 @@ Clone this repo. Run the setup. Let AI agents help you build every department of
 [![AI Agent Ready](https://img.shields.io/badge/AI%20Agent-Ready-blue.svg)](#ai-agent-compatibility)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+> **⭐ If this helps you organize your SaaS, please star the repo.**
+> **It helps other builders discover it.**
+
+### Who is this for?
+
+- **Solo founders** building their first (or next) SaaS
+- **Indie hackers** who want structure without the overhead
+- **AI-assisted startups** using agents to move faster across every department
+- **Builders running multiple SaaS** who need a repeatable operating system
+
 ---
 
 > **Inspired by** [@hridoyreh's viral tweet](https://x.com/hridoyreh/status/2031381494825103473) that laid out the complete SaaS company as a folder structure. This repo turns that original idea into a fully actionable, AI-agent-powered playbook that any founder can clone and run.
@@ -24,8 +34,8 @@ Most founders figure this out painfully, one crisis at a time.
 
 ### What You Get
 
-- **16 departments** covering the full SaaS lifecycle: Idea → Validation → Planning → Design → Development → Infrastructure → Testing → Launch → Acquisition → Distribution → Conversion → Revenue → Analytics → Retention → Growth → Scaling
-- **80+ structured subfolders**, each with detailed `INSTRUCTIONS.md` files
+- **26 departments** covering the full SaaS lifecycle: Idea → Validation → Planning → Design → Development → Infrastructure → Testing → Launch → Acquisition → Distribution → Conversion → Revenue → Analytics → Retention → Growth → Scaling, plus Legal, Finance, Sales, Customer Success, Product Management, Brand, Documentation, Competitive Intelligence, Data & AI, and People & Culture
+- **130+ structured subfolders**, each with detailed `INSTRUCTIONS.md` files
 - **Interactive setup script** that personalizes everything to your startup
 - **AI-agent native** — works with Cursor, GitHub Copilot, OpenAI Codex, Claude, and any LLM-powered coding agent
 - **Battle-tested frameworks** — each folder contains proven templates, checklists, and strategies
@@ -46,7 +56,7 @@ The setup script will:
 1. Ask for your SaaS company name
 2. Ask you to describe your product in your own words
 3. Walk through each department, asking clarifying questions
-4. Generate personalized documentation across all 80+ folders
+4. Generate personalized documentation across all 130+ folders
 
 ### Option 2: Use with AI Agents
 
@@ -187,6 +197,76 @@ saas-clawds/
 │   ├── systems/                   # Processes and SOPs
 │   ├── global-expansion/          # Go international
 │   └── exit-strategy/             # Acquisition, IPO, or lifestyle
+│
+├── 📂 17-legal/                   # Protect your business
+│   ├── incorporation/             # Entity structure, formation
+│   ├── terms-and-privacy/         # ToS, privacy policy, DPA
+│   ├── contracts/                 # MSA, NDAs, vendor agreements
+│   ├── intellectual-property/      # Trademarks, patents, OSS
+│   └── compliance/               # GDPR, SOC2, HIPAA
+│
+├── 📂 18-finance/                 # Run the numbers
+│   ├── financial-modeling/        # Revenue projections, runway
+│   ├── unit-economics/            # LTV, CAC, payback
+│   ├── bookkeeping/               # Chart of accounts, tax prep
+│   ├── billing-operations/        # Payments, invoicing, dunning
+│   └── fundraising/              # Pitch deck, investors, cap table
+│
+├── 📂 19-sales/                   # Close deals
+│   ├── sales-process/             # Pipeline, qualification
+│   ├── demo-playbook/             # Demos, objection handling
+│   ├── proposals-and-contracts/   # Proposals, SOWs
+│   ├── crm-setup/                 # CRM configuration
+│   └── sales-hiring/              # Sales roles, comp plans
+│
+├── 📂 20-customer-success/        # Proactive retention & expansion
+│   ├── health-scoring/            # Customer health metrics
+│   ├── onboarding-program/        # Structured onboarding
+│   ├── quarterly-business-reviews/ # QBRs, success metrics
+│   ├── expansion-playbook/       # Upsells, champion ID
+│   └── churn-prevention/          # At-risk intervention
+│
+├── 📂 21-product-management/      # Ongoing product discipline
+│   ├── feedback-loops/            # Feature requests, synthesis
+│   ├── product-market-fit/        # PMF surveys, retention
+│   ├── release-management/        # Releases, changelog, flags
+│   ├── roadmap-communication/     # Public roadmap
+│   └── product-ops/               # Tooling, rituals
+│
+├── 📂 22-brand-and-positioning/   # Stand out
+│   ├── brand-identity/            # Logo, colors, typography
+│   ├── messaging-framework/       # Value props, positioning
+│   ├── voice-and-tone/            # Writing style
+│   ├── competitive-positioning/   # Differentiation
+│   └── brand-assets/              # Logo files, templates
+│
+├── 📂 23-documentation/           # Knowledge that scales
+│   ├── user-docs/                 # Help center, guides
+│   ├── api-docs/                  # API reference
+│   ├── changelog/                 # Release notes
+│   ├── internal-docs/             # Runbooks, ADRs
+│   └── developer-guides/          # Integration tutorials
+│
+├── 📂 24-competitive-intelligence/ # Stay ahead
+│   ├── market-monitoring/         # Competitive tracking
+│   ├── win-loss-analysis/         # Post-deal interviews
+│   ├── feature-gap-tracking/      # Feature parity matrix
+│   ├── pricing-intelligence/      # Competitor pricing
+│   └── battlecards/               # Sales battlecards
+│
+├── 📂 25-data-and-ai/             # Build on data, scale with AI
+│   ├── data-architecture/         # Pipeline, warehouse
+│   ├── ai-features/               # AI/ML roadmap
+│   ├── data-governance/           # Classification, retention
+│   ├── ai-costs/                  # Token budgets, optimization
+│   └── training-data/             # Data sourcing, labeling
+│
+├── 📂 26-people-and-culture/      # Build the team
+│   ├── culture-values/            # Company values
+│   ├── performance-management/   # Reviews, feedback
+│   ├── compensation/             # Salary, equity, benefits
+│   ├── remote-work/              # Remote policy, async
+│   └── team-health/              # Engagement, burnout
 │
 ├── setup.py                       # Interactive setup script
 ├── AGENTS.md                      # Instructions for AI agents
