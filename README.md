@@ -288,14 +288,53 @@ This repository is designed to be used with AI coding agents. Every folder conta
 
 ### Supported Agents
 
+The structured `AGENTS.md` and `INSTRUCTIONS.md` files work with any AI agent that can read files. Below is a comprehensive list of popular agents (including 2026 releases) that can leverage this playbook:
+
+#### IDE & Editor Integrated
+
 | Agent | How to Use |
 |-------|-----------|
-| **Cursor (Composer)** | Open the repo in Cursor. Tell Composer: "Read AGENTS.md and help me fill out this playbook for [your idea]." |
-| **GitHub Copilot Workspace** | Point Copilot at the repo. It will read the AGENTS.md and INSTRUCTIONS.md files automatically. |
-| **OpenAI Codex / ChatGPT** | Share the AGENTS.md content and ask it to help you work through each department. |
-| **Claude (Anthropic)** | Same as Codex — share AGENTS.md and work through departments. |
-| **Devin / SWE-Agent** | Clone the repo and instruct the agent to read AGENTS.md first. |
-| **Any LLM Agent** | The structured markdown format works with any agent that can read files. |
+| **Cursor (Composer)** | Open the repo in Cursor. Tell Composer: "Read AGENTS.md and help me fill out this playbook for [your idea]." AI-native IDE with strong multi-file editing. |
+| **GitHub Copilot / Copilot Workspace** | Point Copilot at the repo. Agents read AGENTS.md and INSTRUCTIONS.md automatically. Multi-model support (GPT-5, Claude), agent mode in VS Code and GitHub. |
+| **Cline** | Open-source VS Code extension (Apache 2.0). 58K+ GitHub stars, 5M+ installs. Full MCP support, model-agnostic (Claude, GPT, Gemini, Ollama). Plan/Act mode—share AGENTS.md, iterate through departments. [github.com/cline/cline](https://github.com/cline/cline) |
+| **Windsurf (Codeium Cascade)** | Agentic IDE with flow awareness. Cascade tracks edits, terminal, clipboard. Share AGENTS.md and iterate. Free tier + Pro. |
+| **Amazon Q Developer** | VS Code, JetBrains. `/dev` agent for code changes, `/doc` for documentation. Add repo to context—point at AGENTS.md. Integrates with AWS. |
+| **Kilo** | VS Code, JetBrains, CLI. Orchestrator Mode for parallel planning. Memory Bank for context. 1.5M+ users. |
+| **Tabnine** | Enterprise assistant with Context Engine. Add repo to context; helps populate folders. Gartner 2025 Visionary. |
+| **Sourcegraph Cody** | VS Code, JetBrains, web. Code graph for context. Point at AGENTS.md and work through departments. |
+| **Codeium** | Free VS Code extension with unlimited completions. Best free option; also powers Windsurf IDE. |
+
+#### CLI & Terminal Agents
+
+| Agent | How to Use |
+|-------|-----------|
+| **Claude Code (Anthropic CLI)** | `claude` in repo. Terminal-first, powered by Claude Opus. Excels at complex refactors. Use AGENTS.md as `CLAUDE.md` content. |
+| **Aider** | Run `aider` in repo root. Open-source, 75+ LLM providers. Creates repo maps, reads AGENTS.md, modifies files. Install: `pip install aider-chat` |
+| **OpenAI Codex / ChatGPT Code Interpreter** | Share AGENTS.md and company-profile.md. Work through departments in conversation. |
+
+#### Cloud & Platform Agents
+
+| Agent | How to Use |
+|-------|-----------|
+| **AWS Kiro** | Agentic coding on Amazon Bedrock. Spec-driven development—prompts → specs, code, docs, tests. Understands system architecture. Add repo, point at AGENTS.md. [kiro.dev](https://kiro.dev) |
+| **Bolt.new (StackBlitz)** | Browser-based. Import or paste repo. Claude Agent handles multi-file tasks—use for quick playbook population. |
+| **Replit Agent** | Clone repo in Replit. Agent automates setup and file generation—instruct it to read AGENTS.md and populate folders. |
+
+#### Enterprise & Open-Source Platforms
+
+| Agent | How to Use |
+|-------|-----------|
+| **NVIDIA NemoClaw** | Open-source enterprise agent platform (launched GTC 2026). File reading, tool use, multi-agent collaboration, hardware-agnostic (NVIDIA, AMD, Intel). Privacy-first, no forced cloud. Point at repo—agents read structured markdown. [nemoclaw.bot](https://nemoclaw.bot/) |
+| **Codegen** | "The OS for Code Agents"—orchestration for teams. Sandboxed execution, governance, cost analytics. Connect repo via GitHub; agents work through AGENTS.md with full context. For production agent workflows. [codegen.ai](https://codegen.ai) |
+| **Devin / SWE-Agent** | Autonomous coding agents. Clone repo, instruct to read AGENTS.md first, then populate all folders. |
+| **Databricks Genie Code** | For data-focused SaaS builders. Use for analytics, data pipeline, and AI department sections. |
+| **Any MCP-Compatible Agent** | This repo works with Model Context Protocol. Any agent with file-read tools can consume AGENTS.md and INSTRUCTIONS.md. |
+
+#### General LLM (ChatGPT, Claude, Gemini, DeepSeek, etc.)
+
+| Agent | How to Use |
+|-------|-----------|
+| **Any LLM** | Copy AGENTS.md and company-profile.md into the chat. Work through departments sequentially. The structured templates produce consistent output. |
 
 ### Machine-Readable Metadata
 
